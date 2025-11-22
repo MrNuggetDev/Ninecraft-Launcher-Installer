@@ -201,7 +201,7 @@ elif [ $menuChoice == 2 ]; then
   cd
   cd Ninecraft
   echo "Loading Ninecraft..." 
-  if [ $architecture == 1 ] || [ $architecture == 2 ] then
+  if [ $architecture == 1 ] || [ $architecture == 2 ]; then
    ./build-arm/ninecraft/ninecraft
   else
    ./build-i686/ninecraft/ninecraft
